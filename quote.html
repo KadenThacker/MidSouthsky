@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Mid&#8722;South Sky Project</title>
+      <!-- 
+         Mid-South Sky Project main web page
+         Filename: quote.html 
+         Author:   Kaden Thacker
+         HTML5 and CSS3 Illustrated Independent project
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="floating-shapes">
+         <div class="shape"></div>
+         <div class="shape"></div>
+         <div class="shape"></div>
+         <div class="shape"></div>
+         <div class="shape"></div>
+      </div>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         <header>
+            <div><a href="index.html" class="logo-link"><img src="images/midsouthsky_logo_white.png" alt="Mid-South Sky Logo" class="logo" width="1165" height="930"></a></div>
+            <h1>Mid&#8722;South Sky drone photography</h1>
+            <h2>Professional aerial photography services</h2>
+            <div class="drone-icon"></div>
+         </header>
+         <input type="checkbox" id="menu-toggle" class="hamburger-menu">
+<label for="menu-toggle" class="hamburger-icon">
+    Menu <span>☰</span>
+</label>
+
+<nav class="sitenavigation">
+    <p><a href="index.html">Home</a></p>
+    <p><a href="aboutus.html">About Us</a></p>
+    <p><a href="services.html">Services</a></p>
+    <p><a href="quote.html">Get a Quote</a></p>
+    <p><a href="https://www.facebook.com/profile.php?id=61578089491614" target="_blank"> Our Facebook</a></p>
+</nav>
+         <main>
+            <article id="contentstart">
+               <h3>Request a Quote</h3>
+               <p>Fill out the form below to get a customized quote for our aerial photography services.</p>
+               
+               <div class="quote-form-container">
+                  <form id="quoteForm" method="post" action="#">
+                     <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                     </div>
+                     
+                     <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                     </div>
+                     
+                     <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                     </div>
+                     
+                     <div class="form-group">
+                        <label for="date">Preferred Schedule Date *</label>
+                        <input type="date" id="date" name="date" required>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label>Business Type *</label>
+                        <div class="business-options">
+                           <div class="option-button">
+                              <input type="radio" id="real-estate" name="business-type" value="real-estate" required>
+                              <label for="real-estate">Real Estate</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="construction" name="business-type" value="construction" required>
+                              <label for="construction">Construction</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="event-planning" name="business-type" value="event-planning" required>
+                              <label for="event-planning">Event Planning</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="marketing" name="business-type" value="marketing" required>
+                              <label for="marketing">Marketing</label>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label>Service Package *</label>
+                        <div class="package-options">
+                           <div class="package-option">
+                              <input type="radio" id="basic-package" name="service-package" value="basic" required>
+                              <label for="basic-package">
+                                 <strong>Basic Package</strong>
+                                 <span class="package-price">$299</span>
+                                 <span class="package-desc">1-hour flight, 25+ photos, basic editing</span>
+                              </label>
+                           </div>
+                           <div class="package-option">
+                              <input type="radio" id="professional-package" name="service-package" value="professional" required>
+                              <label for="professional-package">
+                                 <strong>Professional Package</strong>
+                                 <span class="package-price">$599</span>
+                                 <span class="package-desc">3-hour flight, 75+ photos, 5-min video</span>
+                              </label>
+                           </div>
+                           <div class="package-option">
+                              <input type="radio" id="premium-package" name="service-package" value="premium" required>
+                              <label for="premium-package">
+                                 <strong>Premium Package</strong>
+                                 <span class="package-price">$999</span>
+                                 <span class="package-desc">Full-day coverage, 200+ photos, 10-15 min video</span>
+                              </label>
+                           </div>
+                           <div class="package-option">
+                              <input type="radio" id="custom-package" name="service-package" value="custom" required>
+                              <label for="custom-package">
+                                 <strong>Custom Package</strong>
+                                 <span class="package-price">Contact for Quote</span>
+                                 <span class="package-desc">Tailored to your specific needs and requirements</span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label>Service Type *</label>
+                        <div class="service-options">
+                           <div class="option-button">
+                              <input type="radio" id="pictures" name="service-type" value="pictures" required>
+                              <label for="pictures">Pictures Only</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="videos" name="service-type" value="videos" required>
+                              <label for="videos">Videos Only</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="both" name="service-type" value="both" required>
+                              <label for="both">Pictures & Videos</label>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label>Video Editing *</label>
+                        <div class="video-options">
+                           <div class="option-button">
+                              <input type="radio" id="edited" name="video-editing" value="edited" required>
+                              <label for="edited">Edited Video</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="raw" name="video-editing" value="raw" required>
+                              <label for="raw">Raw Footage</label>
+                           </div>
+                           <div class="option-button">
+                              <input type="radio" id="not-applicable" name="video-editing" value="not-applicable" required>
+                              <label for="not-applicable">Not Applicable</label>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label for="additional-info">Additional Information</label>
+                        <textarea id="additional-info" name="additional-info" rows="4" placeholder="Tell us more about your project, location, specific requirements, etc..."></textarea>
+                     </div>
+                     
+                     <div class="form-submit">
+                        <button type="submit" class="submit-btn">Submit Quote Request</button>
+                     </div>
+                     
+                     <p class="form-note">* Required fields</p>
+            
+                  </form>
+               </div>
+               
+               <div class="quote-info">
+                  <h4>What Happens Next?</h4>
+                  <p>After submitting your quote request, our team will review your project details and contact you within 24-48 hours with a customized quote. We'll discuss your specific needs, timeline, and any questions you may have about our drone photography services.</p>
+                  
+                  <div class="quick-links">
+                     <p><strong>Need more information about our services?</strong></p>
+                     <a href="services.html" class="services-link">View Our Full Services & Pricing</a>
+                  </div>
+               </div>
+            </article>
+         </main>
+     <footer>
+         <p class="location">Germantown, TN, United States</p>
+         <p class="email">midsouthsky@gmail.com</p>
+         <P class="phone">(901) 286-5172</P>
+      </footer>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
